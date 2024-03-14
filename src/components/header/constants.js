@@ -1,6 +1,6 @@
-import musicLogo from '../../../src/images/Music.svg'
-import drawningLogo from '../../../src/images/drawing.svg'
-import photoLogo from '../../../src/images/Photo.svg'
+import musicLogo from '../../images/Music.svg'
+import drawningLogo from '../../images/drawing.svg'
+import photoLogo from '../../images/Photo.svg'
 
 export const NAVITEMS = [
     {'text': 'Main'},

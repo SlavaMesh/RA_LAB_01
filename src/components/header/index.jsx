@@ -2,7 +2,7 @@ import React from 'react';
 import LogoItem from '../logo';
 import NavItem from '../nav-item';
 import burgerMenu from '../../../src/images/burger-menu.svg'
-// import { ReactComponent as LogoItem } from '../../../src/images/Logo.svg';
+
 
 export const Header = ({ items = [] }) => {
   return (

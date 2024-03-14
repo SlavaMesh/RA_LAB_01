@@ -1,4 +1,4 @@
-import React, { useState, useSyncExternalStore } from 'react'
+import React, { useState } from 'react'
 import { Button } from '../button' 
 
 import backgoundImageMain from '../../images/unsplash_LeG68PrXA6Y.svg'
