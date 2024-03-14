@@ -1,3 +1,7 @@
+import musicLogo from '../../../src/images/Music.svg'
+import drawningLogo from '../../../src/images/drawing.svg'
+import photoLogo from '../../../src/images/Photo.svg'
+
 export const NAVITEMS = [
     {'text': 'Main'},
     {'text': 'About'},
@@ -5,9 +9,9 @@ export const NAVITEMS = [
 ]
 
 export const INTERESTS = [
-    {'logo': '../../../src/images/Music.svg', 'title': 'Music', 'content': 'Indie rock | Reggae'},
-    {'logo': '../../../src/images/drawing.svg', 'title': 'Art', 'content': 'Edvard Munch | Frida Kahlo'},
-    {'logo': '../../../src/images/Photo.svg', 'title': 'Photography', 'content': 'Portraits'},
+    {'logo': musicLogo, 'title': 'Music', 'content': 'Indie rock | Reggae'},
+    {'logo': drawningLogo, 'title': 'Art', 'content': 'Edvard Munch | Frida Kahlo'},
+    {'logo': photoLogo, 'title': 'Photography', 'content': 'Portraits'},
 
 ]
 

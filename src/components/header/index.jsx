@@ -1,6 +1,7 @@
 import React from 'react';
 import LogoItem from '../logo';
 import NavItem from '../nav-item';
+import burgerMenu from '../../../src/images/burger-menu.svg'
 // import { ReactComponent as LogoItem } from '../../../src/images/Logo.svg';
 
 export const Header = ({ items = [] }) => {
@@ -11,7 +12,7 @@ export const Header = ({ items = [] }) => {
             {items.map(({text}) => <NavItem key={text} text={text} />)}
           </nav>
           <div className='flex ml-auto cursor-pointer md:hidden pr-[10px]'>
-            <img src="../../../src/images/burger-menu.svg" alt="menu"/>
+            <img src={burgerMenu} alt="menu"/>
           </div> 
     </header>
   )

@@ -1,4 +1,4 @@
-import './App.css'
+
 import { Wrapper } from './components/wrapper'
 import { Header } from './components/header'
 import { NAVITEMS, INTERESTS, EDUCATION} from './components/header/constants'
@@ -10,6 +10,7 @@ import { Interests } from './components/interests'
 import { Education } from './components/education/education'
 import {Footer} from './components/footer'
 import { GetInTouch } from './components/getintouch'
+import roundedPhoto from "../src/images/photo-rounded.svg"
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
           <div className='h-[1364px]'>
             <div className='flex-column md:flex  md:mt-[80px]'>
               <div className="w-[290px] h-[290px] xl:w-[412px] xl:h-[412px]">
-                <img src="../../../src/images/photo-rounded.svg" alt="photo" />
+                <img src={roundedPhoto} alt="photo" />
               </div>
               <div className='md:pl-[44px]  md:w-[380px] md:h-[238px] xl:pl-[158px] xl:h-[328px]'>
                 <Description><span className='font-bold text-black'>Nick Richardson</span>{` - specialist in Frontend \ndevelopment. Clear code is my passion. \nSolving issues through negotiations`}</Description>
